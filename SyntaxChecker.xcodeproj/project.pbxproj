@@ -22,6 +22,7 @@
 		50D8704D1867A98B003AB526 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8702C1867A98B003AB526 /* UIKit.framework */; };
 		50D870551867A98B003AB526 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D870531867A98B003AB526 /* InfoPlist.strings */; };
 		50D870571867A98B003AB526 /* SyntaxCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D870561867A98B003AB526 /* SyntaxCheckerTests.m */; };
+		50D870621867AA20003AB526 /* SCTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D870611867AA20003AB526 /* SCTextStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		50D870521867A98B003AB526 /* SyntaxCheckerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyntaxCheckerTests-Info.plist"; sourceTree = "<group>"; };
 		50D870541867A98B003AB526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50D870561867A98B003AB526 /* SyntaxCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxCheckerTests.m; sourceTree = "<group>"; };
+		50D870601867AA20003AB526 /* SCTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTextStorage.h; sourceTree = "<group>"; };
+		50D870611867AA20003AB526 /* SCTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTextStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				50D8703D1867A98B003AB526 /* Main_iPad.storyboard */,
 				50D870401867A98B003AB526 /* SCViewController.h */,
 				50D870411867A98B003AB526 /* SCViewController.m */,
+				50D870601867AA20003AB526 /* SCTextStorage.h */,
+				50D870611867AA20003AB526 /* SCTextStorage.m */,
 				50D870431867A98B003AB526 /* Images.xcassets */,
 				50D8702F1867A98B003AB526 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				50D870391867A98B003AB526 /* SCAppDelegate.m in Sources */,
 				50D870421867A98B003AB526 /* SCViewController.m in Sources */,
+				50D870621867AA20003AB526 /* SCTextStorage.m in Sources */,
 				50D870351867A98B003AB526 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

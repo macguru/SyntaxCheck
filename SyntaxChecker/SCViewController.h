@@ -10,4 +10,6 @@
 
 @interface SCViewController : UIViewController
 
+@property(nonatomic, retain) IBOutlet UITextView *textView;
+
 @end
